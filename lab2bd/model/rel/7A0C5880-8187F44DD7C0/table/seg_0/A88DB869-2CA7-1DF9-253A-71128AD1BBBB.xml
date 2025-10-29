@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A88DB869-2CA7-1DF9-253A-71128AD1BBBB" name="Track">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>1ECF3F2D-D84E-95E2-9C3F-7309A779B257</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="track_id" id="02405907-2203-7F74-3C7A-B887085F68BF">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>59291B76-AA29-93C7-E3B6-3C6E218B2F9A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="track_title" id="841943AB-7D7F-C4F1-54E6-851E36826B76">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>45AFFBB1-B9DD-986D-4CF4-1F6D77B7A0B7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duration" id="13958E2E-1DA5-5783-B1C1-F1F9404B6BF3">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>B62B3F25-FCB9-32C4-9B23-7B6EDA9427CB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Album_album_id" id="5AF0FFBD-6B36-F7FD-8C98-A73D55B445C8">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>B1D36D99-3937-CA5F-ED41-A9C5E532DE4A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61778FF6-C7E5-737B-A6C6-8394B1D8746B" referredColumn="340EC97E-3ED2-D185-ABA6-2F819123422E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A3E7CEE-517E-9676-538A-5F965CA16E26" name="Track_PK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>469739AC-2599-F29C-C224-4466E0AD27F2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02405907-2203-7F74-3C7A-B887085F68BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C2E74AE-810A-42D8-994A-2E48642295FB" name="Track_Album_FK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>0C748873-33E5-2960-D2E1-457FCD1392F4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AF0FFBD-6B36-F7FD-8C98-A73D55B445C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

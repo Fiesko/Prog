@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31F2661D-4452-9DAD-9A28-A6BC925AC66F" name="Artist">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>05DC3EE4-0306-A2D1-D816-432B6C7CFFA5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="artist_id" id="B545D126-71AA-6D5D-6F94-10DD74F56A29">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>E3E561BF-D839-074A-EADE-21F57DC14762</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_name" id="21A93422-E0CB-BB6D-DD51-638B22ED2871">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>44ACC8D8-1E0E-A4C9-1CF9-574D7326424C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="06542671-021D-FA86-6552-E44F92B8267D">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>0CE41C85-31FF-AEFC-9B15-CE1E5D48E76C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4F2C3EE-9EC4-9780-CB57-4289DC6CE0A5" name="Artist_PK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>BA534174-61D2-37C0-6D11-0822B8AB9C27</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B545D126-71AA-6D5D-6F94-10DD74F56A29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

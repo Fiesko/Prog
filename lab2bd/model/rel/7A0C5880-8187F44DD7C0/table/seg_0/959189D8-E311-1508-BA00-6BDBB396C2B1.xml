@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="959189D8-E311-1508-BA00-6BDBB396C2B1" name="Playlist">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>CE2B6772-3230-B939-B081-22CDCDAA006C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="playslist_id" id="606B106D-0284-B4E0-3323-47B7C7261EB5">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>6CD9A8C3-2526-4731-A5CA-68076A9E7925</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="playlist_name" id="48CD4563-2633-043F-9DED-DEED7F4DC4FA">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>9F046014-EC32-B909-2532-BDF15D42A2AE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User1_user_id" id="AA6C7E04-2EB0-D889-1000-16F881704F2C">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>B2DF8C1F-2AB1-9C64-F629-0554A81D7090</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5FAD262-C1E5-E2A3-7DB6-F505D94CD23D" referredColumn="E4DDBD89-5483-F6F6-356E-D8CD558D2F5E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98DA6298-8A16-384C-A096-EAB6F7B4F025" name="Playlist_PK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>100BF6F7-D687-DB73-34F7-C153F57029E6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="606B106D-0284-B4E0-3323-47B7C7261EB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81140099-6383-4C50-93DD-CF0B94C27516" name="Playlist_User1_FK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>71624824-177B-62F0-E29C-C8BDCFD3CC89</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA6C7E04-2EB0-D889-1000-16F881704F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

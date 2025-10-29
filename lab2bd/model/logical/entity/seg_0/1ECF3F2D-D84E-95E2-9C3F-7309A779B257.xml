@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1ECF3F2D-D84E-95E2-9C3F-7309A779B257" name="Track">
+<createdBy>Fiesko</createdBy>
+<createdTime>2025-09-23 12:31:28 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="7A0C5880-78F3-5E7B-16D7-8187F44DD7C0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="track_id" id="59291B76-AA29-93C7-E3B6-3C6E218B2F9A">
+<createdBy>Fiesko</createdBy>
+<createdTime>2025-09-23 12:31:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="7A0C5880-78F3-5E7B-16D7-8187F44DD7C0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="track_title" id="45AFFBB1-B9DD-986D-4CF4-1F6D77B7A0B7">
+<createdBy>Fiesko</createdBy>
+<createdTime>2025-09-23 12:31:40 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="7A0C5880-78F3-5E7B-16D7-8187F44DD7C0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duration" id="B62B3F25-FCB9-32C4-9B23-7B6EDA9427CB">
+<createdBy>Fiesko</createdBy>
+<createdTime>2025-09-23 12:31:47 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="7A0C5880-78F3-5E7B-16D7-8187F44DD7C0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="album_id" id="B1D36D99-3937-CA5F-ED41-A9C5E532DE4A">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 09:58:13 UTC</createdTime>
+<generatorID>0C748873-33E5-2960-D2E1-457FCD1392F4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="7A0C5880-78F3-5E7B-16D7-8187F44DD7C0" value="true"/>
+</engineerTo>
+<referedAttribute>B51F96CB-1EE5-5AC4-7D6C-8FC8D1B9410F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="469739AC-2599-F29C-C224-4466E0AD27F2" name="Track PK">
+<createdBy>Fiesko</createdBy>
+<createdTime>2025-09-23 12:46:27 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7A0C5880-78F3-5E7B-16D7-8187F44DD7C0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59291B76-AA29-93C7-E3B6-3C6E218B2F9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

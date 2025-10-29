@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C42B1B5-DB02-D5B1-C62D-D6406FB891D3" name="Relation_9">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Track_track_id" id="0C15A080-03BC-0CAC-DBCE-D9C2E49B38BC">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="410349A6-A99C-D223-51D0-4250C4C21456" referredColumn="02405907-2203-7F74-3C7A-B887085F68BF"/>
+</associations>
+</Column>
+<Column name="Playlist_playslist_id" id="50106B3D-3BE0-71E1-12FA-375256EB079D">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A167E733-E96F-4EC3-085E-6CDEA69F8C9C" referredColumn="606B106D-0284-B4E0-3323-47B7C7261EB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="794B4715-3833-FD09-A53E-2EA981EECB0A" name="Relation_9_PK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C15A080-03BC-0CAC-DBCE-D9C2E49B38BC"/>
+<colUsage columnID="50106B3D-3BE0-71E1-12FA-375256EB079D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29E8AFAB-E92C-CA2A-82C8-9C587D9BD43E" name="Relation_9_Track_FK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>892B657A-7F35-71AA-1CE5-EB2F10EE35DC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C15A080-03BC-0CAC-DBCE-D9C2E49B38BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43B847CF-D9D4-AC72-F9BA-5BC65613EAAA" name="Relation_9_Playlist_FK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>892B657A-7F35-71AA-1CE5-EB2F10EE35DC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50106B3D-3BE0-71E1-12FA-375256EB079D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

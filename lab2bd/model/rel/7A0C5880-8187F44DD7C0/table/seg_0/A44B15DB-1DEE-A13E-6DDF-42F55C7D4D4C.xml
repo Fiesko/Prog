@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A44B15DB-1DEE-A13E-6DDF-42F55C7D4D4C" name="Relation_8">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Artist_artist_id" id="9E94A092-8BD1-19FD-B9AC-4E144CE6BC54">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D9166B8-106E-90EF-C09E-9BEFB42D9DD6" referredColumn="B545D126-71AA-6D5D-6F94-10DD74F56A29"/>
+</associations>
+</Column>
+<Column name="Track_track_id" id="E851CA94-6874-13EF-C04B-3C9675897E4E">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06E69313-3936-6882-BBF1-E3EDD89571FA" referredColumn="02405907-2203-7F74-3C7A-B887085F68BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4DAD509-22E6-3D12-5C00-4D3E9C5F71EC" name="Relation_8_PK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E94A092-8BD1-19FD-B9AC-4E144CE6BC54"/>
+<colUsage columnID="E851CA94-6874-13EF-C04B-3C9675897E4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B23C67C6-78F5-6FBD-1457-B53BAE0B3851" name="Relation_8_Artist_FK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>8CA5525D-B26E-3D57-24BD-3902FCC5F2AB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E94A092-8BD1-19FD-B9AC-4E144CE6BC54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA65B3DC-8AA3-BD42-11C6-F67795E68AEC" name="Relation_8_Track_FK">
+<createdBy>il123</createdBy>
+<createdTime>2025-10-29 10:21:11 UTC</createdTime>
+<generatorID>8CA5525D-B26E-3D57-24BD-3902FCC5F2AB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E851CA94-6874-13EF-C04B-3C9675897E4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
